@@ -1,0 +1,49 @@
+/* styles.css for odin-recipes Project: Recipes webpage*/
+
+h1 {
+    color: orangered;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.recipe {
+    font-size: 25px;
+}
+
+.ingredient-list li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.directions li {
+    font-size: 18px;
+}
+
+#home-link {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h4.header {
+    font-size: 32px;
+}
+
+img {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.text {
+    background-color: black;
+    color: white;
+}
