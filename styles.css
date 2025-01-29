@@ -1,5 +1,7 @@
 /* styles.css for odin-recipes Project: Recipes webpage*/
 
+/* Type Selectors */
+
 h1 {
     color: orangered;
     font-weight: bold;
@@ -7,9 +9,46 @@ h1 {
     text-align: center;
 }
 
+body {
+    background: wheat;
+}
+
+/* Class Selectors (single class) */
+
 .recipe {
     font-size: 25px;
 }
+
+.header {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.description {
+    color: black;
+    font-size: 20px;
+}
+
+.blank-background {
+    background-color: lightyellow;
+    padding: 8px;
+    border: 4px black;
+}
+
+/* ID Selectors */
+
+#home-link {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Descendant Combinators */
 
 .ingredient-list li {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -21,29 +60,3 @@ h1 {
     font-size: 18px;
 }
 
-#home-link {
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.header {
-    font-weight: bold;
-    font-size: 36px;
-}
-
-h4.header {
-    font-size: 32px;
-}
-
-img {
-    text-align: center;
-}
-
-.image {
-    text-align: center;
-}
-
-.text {
-    background-color: black;
-    color: white;
-}
