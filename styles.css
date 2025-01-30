@@ -13,20 +13,49 @@ body {
     background: wheat;
 }
 
+strong {
+    font-weight: 800;
+}
+
+ol, ul {
+    font-size: 16px;
+    margin-top: -16px;
+}
+
+/* Chaining Selectors */
+div.image {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.header.main {
+    width: fit-content;
+    background-color: lightyellow;
+    margin: 0 auto;
+    padding: 4px 32px;
+}
+
 /* Class Selectors (single class) */
 
 .recipe {
     font-size: 25px;
 }
 
+.recipe-links {
+    margin-top: 16px;
+}
+
 .header {
+    width:fit-content;
     font-weight: bold;
     font-size: 36px;
+    margin-left: 16px;
+    padding: 2px 8px;
+    background-color: rgb(255, 235, 204)
 }
 
 .image {
     display: block;
-    margin: 0 auto;
     padding: 8px;
 }
 
@@ -37,8 +66,8 @@ body {
 
 .blank-background {
     background-color: lightyellow;
-    padding: 8px;
-    border: 4px black;
+    width: fit-content;
+    padding: 4px;
 }
 
 /* ID Selectors */
@@ -46,17 +75,35 @@ body {
 #home-link {
     font-weight: bold;
     font-size: 30px;
+    padding-bottom: 16px;
 }
 
 /* Descendant Combinators */
 
+.recipe-links li {
+    background-color: lightyellow;
+    width: fit-content;
+    margin-bottom: 4px;
+    padding: 4px;
+    list-style-position: inside;
+}
+
 .ingredient-list li {
+    background-color: lightyellow;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
     font-weight: 500;
+    font-size: 24px;
+    width: fit-content;
+    margin-bottom: 4px;
+    padding: 2px;
+    list-style-position: inside;
 }
 
 .directions li {
-    font-size: 18px;
+    background-color: lightyellow;
+    font-size: 20px;
+    margin-bottom: 4px;
+    padding: 2px;
+    list-style-position: inside;
 }
 
